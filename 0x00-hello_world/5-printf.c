@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a phrase followed by a new line. 
+ * main - prints a phrase followed by a new line.
  * Return: 0 .
  */
 int main(void)

@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
-* main -  will assign a random number to the variable n  
-* variable n is greater than 5 less than 6 equal 0
-* Return : 0
+* main -  will assign a random number to the variable n.
+* variable n is greater than 5 less than 6 equal 0.
+*
+* Return : Always 0.
 */
 int main(void)
 {
@@ -19,6 +20,6 @@ int main(void)
 	else if (n % 10 == 0)
 		printf("and is 0\n");
 	else if (n % 10 < 6 && n % 10 != 0)
-		printf("and is less than 6 and not 0\n");	
+		printf("and is less than 6 and not 0\n");
 	return (0);
 }

@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
-*main -  will assign a random number to the variable n  
+* main -  will assign a random number to the variable n  
 * variable n is greater than 5 less than 6 equal 0
+* return to cero
 */
 int main(void)
 {

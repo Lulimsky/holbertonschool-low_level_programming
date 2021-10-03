@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+*main -  will assign a random number to the variable n  
+* variable n is greater than 5 less than 6 equal 0
+*/
 int main(void)
 {
 	int n;

@@ -1,17 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - put alphabet in lowecase except q and e
+ * main - put alphabet in lowecase except q and e.
  *
- * Return : Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
-char c;
+	char c;
 
-for (c = 'a'; c <= 'z'; ++c)
-{
-if (c != 'e' && c != 'q')
-	putchar (c);
-}
+	for (c = 'a'; c <= 'z'; ++c)
+	{
+		if (c != 'e' && c != 'q')
+			putchar (c);
+	}
 	putchar('\n');
-	return(0);
+
+	return (0);
+}

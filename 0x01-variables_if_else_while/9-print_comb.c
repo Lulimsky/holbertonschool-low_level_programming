@@ -1,17 +1,22 @@
 #include <stdio.h>
 /**
- * main - program prints all possible combinations from 0 to 9.
- * Return: 0.
- */
+*main - function of combinations form zero to nine
+*Return: 0
+*/
 int main(void)
 {
-	int comb;
+int num;
 
-	for (comb = 48; comb <= 57; comb++)
-		putchar(comb);
-		if (comb < 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+for (num = '0'; num <= '9'; ++num)
+{
+if (num != '0')
+{
+putchar(',');
+putchar(' ');
+}
+putchar(num);
+}
+
+putchar('\n');
+return (0);
 }

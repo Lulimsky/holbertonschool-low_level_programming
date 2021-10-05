@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
-* main - print alphabet in lowercase.
+* print_alphabet - print abc in lowercase.
 *
 * Return: to void.
 */
 void print_alphabet(void)
 {
-	int abc;
+	char abc;
 
-	for (abc = 'a' ; abc >= 'z'; abc ++)
+	for (abc = 'a' ; abc <= 'z'; abc ++)
 	{
 		_putchar (abc);
 	}

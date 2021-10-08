@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_numbers - print a count to zero to nine..
+* print_most_numbers - print a count to zero to nine..
 *
 * Return: to void.
 */

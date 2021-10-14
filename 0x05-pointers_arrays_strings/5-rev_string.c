@@ -2,14 +2,23 @@
 #include <stdio.h>
 
 /**
- *print_rev - function that prints a string, in reverse.
- *@s: a char.
+ *rev_string -  function that reverses a string.
+ *@s: poniter to a char.
  * Return: Always 0.
  */
 void rev_string(char *s)
 {
-	 int i = str.length();
+	int len = 0, pos;
+	char aux;
 
-	 for(int i = 0 ; i < 2 ; i++ )
-	  
+	while (s[len])
+		len++;
+	len--;
+
+	for (pos = 0; pos < len - pos; pos++)
+	{
+		aux = s[pos];
+		s[pos] = s[len - pos];
+		s[len - pos] = aux;
+	}
 }

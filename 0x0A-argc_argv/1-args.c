@@ -3,10 +3,10 @@
 
 /**
   * main - prints the number of arguments passed into it.
-  *@argc: count of the arguments
-  *@argv: array of pointers to the strings which are those arguments
-  * Return: 
-: */
+  *@argc: arguments count.
+  *@argv: arguments vector.
+  * Return: Always 0.
+  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
 

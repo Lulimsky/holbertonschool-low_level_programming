@@ -7,8 +7,9 @@
  * @str: string
  * Return: pointer to newly allocated space in memory.
  */
-char *_strdup(char *str);
-unsigned int index, indice;
+char *_strdup(char *str)
+{
+	unsigned int index, indice;
 	char *ptr;
 
 	if (str == NULL)
@@ -26,3 +27,4 @@ unsigned int index, indice;
 		ptr[indice] = str[indice];
 	}
 	return (ptr);
+}

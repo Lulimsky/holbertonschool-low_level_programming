@@ -1,8 +1,9 @@
  #include <stdio.h>
 
 /**
- * main - program that prints all possible different combinations of three digits.
- *numbers must be separated by ,followed by a space.
+ * main - program that prints all possible different
+ * combinations of three digits.
+ * numbers must be separated by ,followed by a space.
  *
  * Return: zero
  */

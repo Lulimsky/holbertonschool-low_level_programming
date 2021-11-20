@@ -4,31 +4,32 @@
  * main - prints all possible combinations of three different digits,
  * in ascending order, separated by a comma followed by a space.
  *
- * Return: zero.
+ *Return: zero.
  */
+
 int main(void)
 {
-	int uno, dos, tres;
+	int count, uno, dos, tres;
 
-	for (uno = 0; uno < 8; uno++)
+	for (count = 0; count < 1000; count++)
 	{
-		for (dos = uno + 1; dos < 9; dos++)
+		uno = count / 100; /* hundreds */
+		dos = (count / 10) % 10; /* tens */
+		tres = count % 10; /* singles */
+
+		if (uno < dos && dos < tres)
 		{
-			for (tres = dos + 1; tres < 10; dos++)
+			putchar(uno + '0');
+			putchar(dos + '0');
+			putchar(tres + '0');
+
+			if (count < 700)
 			{
-				putchar((uno % 10) + '0');
-				putchar((dos % 10) + '0');
-				putchar((tres % 10) + '0');
-
-				if (uno == 7 && dos == 8 && tres == 9)
-					continue;
-
-				putchar(',');
-				putchar(' ');
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
-
 	putchar('\n');
 
 	return (0);

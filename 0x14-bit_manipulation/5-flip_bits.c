@@ -5,12 +5,12 @@
  * flip_bits - number of bit to go from one numbert to other
  * @n: long int
  * @m: long int
- * Return: number of bites, -1 fault
+ * Return: number of bites
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 unsigned int count = 0;
-unsigned int flip;
+unsigned long int flip;
 
 if ((n > ULONG_MAX) || (m > ULONG_MAX))
 {

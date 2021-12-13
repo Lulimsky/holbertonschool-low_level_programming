@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * flip_bits - number of bit to go from one numbert to other
@@ -9,9 +10,15 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 unsigned int count = 0;
+unsigned int flip;
+
+if ((n > ULONG_MAX) || (m > ULONG_MAX))
+{
+return (0);
+}
 
 /* Compute bits differences */
-unsigned int flip = n ^ m;
+flip = n ^ m;
 
 /* Count one's */
 while (flip)

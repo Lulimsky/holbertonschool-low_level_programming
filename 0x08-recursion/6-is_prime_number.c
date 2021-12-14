@@ -3,11 +3,12 @@
 /**
  * is_prime_recursive - checks prime
  * is_prime_number - evaluate a number
- * Description: if is prime number
+ * Description: check if number is prime or not
  * Return: 1 if primer, otherwise 0
  * @n: the number
  * @odd_divisor: divisor
  * @number: random number
+ * @number: int
  */
 
 int is_prime_recursive(unsigned int number, unsigned int odd_divisor)

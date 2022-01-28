@@ -24,7 +24,7 @@ if (ht->array[i] != NULL)
 {
 node = ht->array[i];
 
-while (node != NULL)
+	while (node != NULL)
 	{
 		if (flag)
 		printf(", ");

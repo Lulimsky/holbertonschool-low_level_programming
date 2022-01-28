@@ -21,9 +21,9 @@ hash_table_t *ht;
 ht->array = malloc(sizeof(hash_node_t *) * size);
 
 if (ht->array == NULL)
-{	
-free(ht);
-return (NULL);
+{
+	free(ht);
+	return (NULL);
 }
 
 memset(ht->array, 0, sizeof(hash_node_t *) * size);

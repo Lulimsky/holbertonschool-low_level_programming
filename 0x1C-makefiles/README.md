@@ -1,4 +1,4 @@
-## C - Makefiles
+### C - Makefiles
 
 # Learning Objectives for this project :nerd_face:
 

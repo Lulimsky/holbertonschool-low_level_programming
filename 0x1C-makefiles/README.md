@@ -2,56 +2,53 @@
 
 #Learning Objectives for this project:
 
-What are make, Makefiles
-When, why and how to use Makefiles
-What are rules and how to set and use them
-What are explicit and implicit rules
-What are the most common / useful rules
-What are variables and how to set and use the
+* What are make, Makefiles
+* When, why and how to use Makefiles
+* What are rules and how to set and use them
+* What are explicit and implicit rules
+* What are the most common / useful rules
+* What are variables and how to set and use the
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Helper Files :raised_hands:
 
-* [holberton.c](./holberton.c): C function that displays a seahorse in text.
+* [school.c](./school.c): C function that displays a seahorse in text.
 Used for Makefile practice purposes throughout project. Provided by Holberton School.
 
 * [main.c](./main.c): Main C function that runs the function defined in
-[holberton.c](./holberton.c).
+[school.c](./school.c).
 Provided by Holberton School.
 
 ## Header File :file_folder:
 
-* [m.h](./m.h): Header file defining the function prototype used in `holberton.c`.
+* [m.h](./m.h): Header file defining the function prototype used in `school.c`.
 Provided by Holberton School.
 
 ## Tasks :page_with_curl:
 
 * **0. make -f 0-Makefile**
-  * [0-Makefile](./0-Makefile): Makefile that creates an executable `holberton` based on
-  [holberton.c](./holberton.c) and [main.c](./main.c). Includes:
+  * [0-Makefile](./0-Makefile): Makefile that creates an executable `school` based on
+  [school.c](./school.c) and [main.c](./main.c). Includes:
     * Rule `all` that builds the executable.
 
 * **1. make -f 1-Makefile**
-  * [1-Makefile](./1-Makefile): Makefile that creates an executable `holberton` based on
-  [holberton.c](./holberton.c) and [main.c](./main.c). Builds on [0-Makefile](./0-Makefile)
+  * [1-Makefile](./1-Makefile): Makefile that creates an executable `school` based on
+  [school.c](./school.c) and [main.c](./main.c). Builds on [0-Makefile](./0-Makefile)
   with:
     * Variable `CC` that defines the compiler to be used.
     * Variable `SRC` that defines the `.c` files to compile.
     * The `all` rule only recompiles updated source files.
 
 * **2. make -f 2-Makefile**
-  * [2-Makefile](./2-Makefile): Makefile that creates an executable `holberton` based on
-  [holberton.c](./holberton.c) and [main.c](./main.c). Builds on [1-Makefile](./1-Makefile)
+  * [2-Makefile](./2-Makefile): Makefile that creates an executable `school` based on
+  [school.c](./school.c) and [main.c](./main.c). Builds on [1-Makefile](./1-Makefile)
   with:
     * Variable `OBJ` that defines the `.o` files to compile.
     * Variable `NAME` that defines the name of the executable.
 
 * **3. make -f 3-Makefile**
-  * [3-Makefile](./3-Makefile): Makefile that creates an executable `holberton` based on
-  [holberton.c](./holberton.c) and [main.c](./main.c). Builds on [2-Makefile](./2-Makefile)
+  * [3-Makefile](./3-Makefile): Makefile that creates an executable `school` based on
+  [school.c](./school.c) and [main.c](./main.c). Builds on [2-Makefile](./2-Makefile)
   with:
     * Rule `clean` that deletes all Emacs/Vim temporary files as well as the
     executable.
@@ -62,8 +59,8 @@ Provided by Holberton School.
     * Variable `RM` that defines the command to delete files.
 
 * **4. A complete Makefile**
-  * [4-Makefile](./4-Makefile): Makefile that creates an executable `holberton` based on
-  [holberton.c](./holberton.c) and [main.c](./main.c). Builds on [3-Makefile](./3-Makefile)
+  * [4-Makefile](./4-Makefile): Makefile that creates an executable `school` based on
+  [school.c](./school.c) and [main.c](./main.c). Builds on [3-Makefile](./3-Makefile)
   with:
     * Variable `CFLAGS` that defines the compiler flags `-Wall -Werror -Wextra
     -pedantic`.
@@ -84,8 +81,8 @@ Provided by Holberton School.
     surrounding land).
 
 * **6. make -f 100-Makefile**
-  * [100-Makefile](./100-Makefile): Makefile that creates an executable `holberton` based on
-  [holberton.c](./holberton.c) and [main.c](./main.c). Builds on [4-Makefile](./4-Makefile)
+  * [100-Makefile](./100-Makefile): Makefile that creates an executable `school` based on
+  [school.c](./school.c) and [main.c](./main.c). Builds on [4-Makefile](./4-Makefile)
   with:
     * Does not define the variable `RM`.
     * Never uses the string `$(CFLAGS)`.

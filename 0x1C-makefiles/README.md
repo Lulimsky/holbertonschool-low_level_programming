@@ -1,6 +1,6 @@
 ## C - Makefiles
 
-#Learning Objectives for this project:
+#Learning Objectives for this project :nerd_face:
 
 * What are make, Makefiles
 * When, why and how to use Makefiles

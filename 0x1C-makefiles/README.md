@@ -1,6 +1,6 @@
 ## C - Makefiles
 
-#Learning Objectives for this project :nerd_face:
+# Learning Objectives for this project :nerd_face:
 
 * What are make, Makefiles
 * When, why and how to use Makefiles
@@ -10,7 +10,7 @@
 * What are variables and how to set and use the
 
 
-## Helper Files :raised_hands:
+## Helper Files :inbox_tray:
 
 * [school.c](./school.c): C function that displays a seahorse in text.
 Used for Makefile practice purposes throughout project. Provided by Holberton School.
@@ -24,7 +24,7 @@ Provided by Holberton School.
 * [m.h](./m.h): Header file defining the function prototype used in `school.c`.
 Provided by Holberton School.
 
-## Tasks :page_with_curl:
+## Tasks :woman_technologist:
 
 * **0. make -f 0-Makefile**
   * [0-Makefile](./0-Makefile): Makefile that creates an executable `school` based on
